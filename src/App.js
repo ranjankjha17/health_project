@@ -5,7 +5,6 @@ import Footer from './component/Footer';
 import HeroBanner from './component/HeroBanner';
 import Joinus from './component/Joinus';
 import Medicine from './component/Medicine';
-import Navbar from './component/Navbar';
 import Navbars from './component/Navbars';
 import Services from './component/Services';
 import Team from './component/Team';
