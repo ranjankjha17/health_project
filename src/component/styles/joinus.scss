@@ -1,0 +1,27 @@
+.joinus_button:hover{
+    color: var(--bs-light-text-color);
+}
+.joinus_button{
+    padding: 1.8em 2em;
+    border: none;
+    border-radius:5px;
+    outline: none;
+    background-color: var(--bs-primary-color);
+    font-weight: 700;
+    color: var(--bs-light-text-color);
+    text-decoration: none;
+}
+.joinus_button_area{
+    margin-top: 3rem;
+  }
+  .joinus_input{
+     padding: 1.5em;
+    border: none;
+  }
+  .heading2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:var(--bs-text-color);
+    margin-top: 2rem;
+    // font-weight: bold;
+    }

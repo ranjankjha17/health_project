@@ -1,0 +1,59 @@
+.section{
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+.h6{
+color:var(--bs-primary-color);
+}
+
+.button1{
+    padding: 1.5em 5em;
+    border: none;
+    border-radius:5px;
+    outline: none;
+    background-color: var(--bs-primary-color);
+    font-weight: 700;
+    color: var(--bs-light-text-color);
+    text-decoration: none;
+}
+.button1:hover{
+    color: var(--bs-light-text-color);
+}
+.button2:hover{
+    color: var(--bs-primary-color);
+}
+.button2{
+    padding: 1.5em 5em;
+    border: 1px solid var(--bs-primary-color);
+    border-radius:5px;
+    outline: none;
+    background-color: var(--bs-light-text-color);
+    font-weight: 700;
+    color: var(--bs-primary-color);
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.heading{
+font-weight: 700;
+font-size: 4.5rem;
+color:var(--bs-text-color);
+margin-top: 3rem;
+// font-weight: bold;
+}
+.heading_description{
+font-size: 1.5rem;
+color: var(--bs-second-text-color);
+margin-top: 3rem;
+font-weight: 700;
+}
+.button_area{
+    margin-top: 5rem;
+}
+.image_area{
+    background-color: var(--bs-faded-secondary-color-2);
+    z-index: 1;
+}
+.right_image{
+    z-index: 2;
+    margin-left: -7rem;    
+}
