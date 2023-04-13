@@ -1,8 +1,12 @@
 .card {
     padding: 1.5rem;
     padding-right: 5rem;
+    
+width: 328px;
+height: 288px;
+
     margin: 0;
-    max-width: 32%;
+    // max-width: 32%;
 }
 
 .circle {
@@ -44,3 +48,4 @@
     background-color: var(--bs-danger-color);
     margin-top: 1.5rem;
 }
+

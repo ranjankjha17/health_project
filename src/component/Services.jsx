@@ -34,7 +34,7 @@ const Services = () => {
     return (
         <div className='row z-index-2 d-flex justify-content-between' style={{marginTop:"-5rem",marginBottom:"5rem"}}>
             {data.map((e) => (
-                <div className='card col-4 shadow-md shadow-lg' key={e.id}>
+                <div className='card col-12 col-lg-4 col-xl-4 shadow-md shadow-lg' key={e.id}>
                     <div className='circle'>
                         <img src={e.image} alt={e.title}/>
                     </div>

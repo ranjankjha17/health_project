@@ -28,7 +28,7 @@ const Navbars = () => {
       </ul>
       <ul className="navbar-nav ms-auto pr-10">
         <li className="nav-item">
-          <a className="nav-link h6" href=" #" style={{color:"#FF685B"}}>Login</a>
+          <a className="nav-link h6" href=" #" style={{color:"#FF685B",marginRight:"1rem"}}>Login</a>
         </li>
         <li className="nav-item">
           <a className="nav_button" href=" #" style={{color:"#ffffff"}}>

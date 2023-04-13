@@ -13,7 +13,7 @@ const HeroBanner = () => {
           <a  href='#' className='button2'>Learn More</a>
         </div>
       </div>
-      <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+      <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
         <div className='image_area'>
           <img src="./images/doctor.png" alt="doctor" className='mt-3 right_image'/>
         </div>
