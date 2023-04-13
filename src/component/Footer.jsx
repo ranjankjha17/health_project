@@ -10,7 +10,7 @@ const Footer = () => {
             <footer class="bg-light py-3">
                 <div>
                     <div class="row">
-                        <div class="col-12 col-lg-2">
+                        <div class="col-6 col-lg-2">
                             <h5 className='title'>Company Info</h5>
                             <ul class="list-unstyled">
                                 <li><a href=" #" className='text-muted'>About Us</a></li>
@@ -19,7 +19,7 @@ const Footer = () => {
                                 <li><a href=" #" className='text-muted'>Blog</a></li>
                             </ul>
                         </div>
-                        <div class="col-12 col-lg-2">
+                        <div class="col-6 col-lg-2">
                             <h5 className='title'>Legal</h5>
                             <ul class="list-unstyled">
                                 <li><a href=" #" className='text-muted'>About Us</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
                                 <li><a href=" #" className='text-muted'>Blog</a></li>
                             </ul>
                         </div>
-                        <div class="col-12 col-lg-2">
+                        <div class="col-6 col-lg-2">
                             <h5 className='title'>Features</h5>
                             <ul class="list-unstyled">
                                 <li><a href=" #" className='text-muted'>Business Marketing</a></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                                 <li><a href=" #" className='text-muted'>Unlimited Support</a></li>
                             </ul>
                         </div>
-                        <div class="col-12 col-lg-2">
+                        <div class="col-6 col-lg-2">
                             <h5 className='title'>Resources</h5>
                             <ul class="list-unstyled">
                                 <li><a href=" #" className='text-muted'>IOS & Android</a></li>
@@ -46,7 +46,7 @@ const Footer = () => {
                                 <li><a href=" #" className='text-muted'>API</a></li>
                             </ul>
                         </div>
-                        <div class="col-12 col-lg-4">
+                        <div class="col-6 col-lg-4">
                             <h5 className='title'>Get In Touch</h5>
                             <ul class="list-unstyled">
                                 <li><a href=" #"  className='text-muted'><BsTelephone style={{color:"#FF685B",marginRight:"1rem"}} /></a>(480) 555-0103</li>

@@ -44,7 +44,7 @@ const Team = () => {
                     {
                         data.map((e)=>{
                             return(
-                                <div className='team_card col-12 col-lg-3 text-center' key={e.id}>
+                                <div className='team_card col-12 col-lg-3 col-xl-3 text-left text-lg-center' key={e.id}>
                                     <img src={e.image} alt={e.name} style={{borderTopLeftRadius: "10%",borderTopRightRadius:"10%"}}/>
                                   <h5 className='mt-3 title fw-bold'>{e.name}</h5>   
                                   <p className='mt-3 text-muted'>{e.profession}</p>

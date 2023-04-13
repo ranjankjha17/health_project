@@ -5,13 +5,13 @@ const SocialMedia = () => {
     return (
         <div className='row'>
             <div className='col-1'>
-                <a href="#" style={{ color: "#FF685B" }}><BsFacebook /></a>
+                <a href=" #" style={{ color: "#FF685B" }}><BsFacebook /></a>
             </div>
             <div className='col-1 mx-3'>
-                <a href="#" style={{ color: "#FF685B" }}><BsInstagram /></a>
+                <a href=" #" style={{ color: "#FF685B" }}><BsInstagram /></a>
             </div>
             <div className='col-1'>
-                <a href="#" style={{ color: "#FF685B" }}><BsTwitter /></a>
+                <a href=" #" style={{ color: "#FF685B" }}><BsTwitter /></a>
             </div>
         </div>
     )

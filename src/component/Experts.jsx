@@ -3,7 +3,7 @@ import './styles/experts.scss'
 const Experts = () => {
     return (
         <div className='row'>
-            <div className='col-6'>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
                 <div className='line' style={{height:"5px",width:"5rem"}}></div>
                 <h2 className='heading2' style={{fontSize:"3rem"}}>Meet Our Experts</h2>
                 <div className='description w-75' style={{paddingRight:"4rem",marginBottom:"3rem"}}>Problems trying to resolve the conflict between
@@ -11,12 +11,12 @@ const Experts = () => {
                     Newtonian mechanics
                  </div>
                  <div style={{marginBottom:"3rem"}}>
-                 <a className='button3' href='#'>Learn More {'>'}</a>
+                 <a className='button3' href=' #'>Learn More {'>'}</a>
 
                  </div>
                     
             </div>
-            <div className='col-6 d-flex justify-content-end' style={{marginBottom:"5rem"}}>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-end' style={{marginBottom:"5rem"}}>
             <img src="./images/expert.png" alt="doctor" className='mt-3 right_image'/>
             </div>
         </div>

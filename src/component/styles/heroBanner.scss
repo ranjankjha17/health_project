@@ -59,3 +59,18 @@ padding-right: 5rem;
     z-index: 2;
     margin-left: -13rem;    
 }
+
+
+@media screen and (max-width: 450px) {
+    .image_area{
+        background-color: var(--bs-faded-secondary-color-2);
+        z-index: 1;
+        margin-top: -8rem;
+    }
+    .right_image{
+        z-index: 2;
+        margin-left: -7rem;
+        height: 400px;
+        width:450px    
+    }
+}

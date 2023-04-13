@@ -1,4 +1,3 @@
-import { GrLinkNext } from "react-icons/gr";
 import "./styles/navbar.scss"
 import { BsArrowRightShort } from "react-icons/bs";
 const Navbars = () => {

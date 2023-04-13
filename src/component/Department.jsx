@@ -47,7 +47,7 @@ const Department = () => {
                     
                         {
                             data.map((e) => (
-                                <div className='col-12 col-lg-4 dep_card' key={e.id}>
+                                <div className='col-12 col-lg-4 col-xl-4 dep_card' key={e.id}>
                                     <img src={e.image} alt={e.title} className='z-index-1'/>
                                     <div className='sale z-index-2'>Sale</div>
                                     <div className='icon_square_area d-flex'>

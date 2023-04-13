@@ -11,7 +11,7 @@ const Joinus = () => {
                 <div>
                     <div className='joinus_button_area'>
                         <input type="text" placeholder='Your Email'className='joinus_input w-50' />
-                        <a href='#' className='joinus_button'>Subscribe</a>
+                        <a href=' #' className='joinus_button'>Subscribe</a>
                     </div>
 
                 </div>

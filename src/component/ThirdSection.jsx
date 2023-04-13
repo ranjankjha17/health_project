@@ -30,7 +30,7 @@ const ThirdSection = () => {
   return (
     <div className='row z-index-2 d-flex justify-content-between' style={{marginBottom:"5rem",marginTop:"5rem"}}>
             {data.map((e) => (
-                <div className='col-12 col-lg-3 col-xl-3 text-center' key={e.id}>
+                <div className='col-12 col-lg-3 col-xl-3 text-center text-lg-center text-xl-center' key={e.id}>
                    <h1 className='heading' style={{color:"#FF685B"}}>{e.text}</h1>
                     
                     <h5 className='title'>{e.title}</h5>

@@ -44,10 +44,10 @@ const Medicine = () => {
     return (
         <>
             <div className='row'>
-                <div className='col-12'>
+                <div className='col-12 text-center text-sm-left text-md-center text-lg-left text-xl-left'>
                     <h6 className='h6' style={{ fontWeight: "700", fontSize: "1rem" }}>Practice Advice</h6>
                     <h2 className='heading2'>Leading Medicine</h2>
-                    <div className='description w-50' style={{ marginBottom: "3rem" }}>Problems trying to resolve the conflict between
+                    <div className='description w-100 w-lg-50 w-xl-50' style={{ marginBottom: "3rem" }}>Problems trying to resolve the conflict between
                         the two major realms of Classical physics: Newtonian mechanics
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Medicine = () => {
                     data.map((e) => {
                         return (
 
-                            <div className='medicine_card col-12 col-lg-4 text-center' key={e.id}>
+                            <div className='medicine_card col-12 col-lg-4 col-xl-4 text-center text-sm-center text-md-centertext-lg-center text-xl-center' key={e.id}>
                                 <a href=" #" className='text-muted'><AiFillStar style={{ color: "#F3CD03" }} /></a>
                                 <a href=" #" className='text-muted'><AiFillStar style={{ color: "#F3CD03" }} /></a>
                                 <a href=" #" className='text-muted'><AiFillStar style={{ color: "#F3CD03" }} /></a>

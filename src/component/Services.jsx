@@ -32,9 +32,9 @@ const Services = () => {
         }
     ]
     return (
-        <div className='row z-index-2 d-flex justify-content-between' style={{marginTop:"-5rem",marginBottom:"5rem"}}>
+        <div className='row z-index-2 d-flex justify-content-between mt-3 mt-lg-0 mt-xl-0' style={{marginTop:"-5rem",marginBottom:"5rem"}}>
             {data.map((e) => (
-                <div className='card col-12 col-lg-4 col-xl-4 shadow-md shadow-lg' key={e.id}>
+                <div className='card col-12 col-lg-4 col-xl-4 shadow-md shadow-lg mb-3' key={e.id}>
                     <div className='circle'>
                         <img src={e.image} alt={e.title}/>
                     </div>
