@@ -1,6 +1,6 @@
 
 .nav_button{
-  padding: 1.5em 3em;
+  padding: 1em 2.5em;
   border: none;
   border-radius:5px;
   outline: none;
@@ -8,6 +8,7 @@
   font-weight: 700;
   color: var(--bs-light-text-color);
   text-decoration: none;
+  margin-left: 1rem;
   
 }
 .nav_button:hover{
@@ -15,4 +16,17 @@
 }
 .nav_button_area{
   margin-top: 3rem;
+}
+.abcd a{
+  font-size: 14px;
+  color: var(--bs-second-text-color);
+  font-weight: bold;
+}
+.logo{
+  font-size: 24px;
+  color:var(--bs-text-color);
+  font-weight: bold;
+}
+.logo a{
+  font-size: 14px;
 }

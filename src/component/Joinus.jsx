@@ -4,7 +4,7 @@ const Joinus = () => {
     return (
         <div className='row  text-center' style={{marginTop:"10rem"}}>
             <div className='col-12'>
-                <h6 className='h6'>News Letter</h6>
+                <h6 className='h6' style={{fontWeight:"bold"}}>Newsletter</h6>
                 <h2 className='heading2'>JOIN US</h2>
                 <p className='description'>Problems trying to resolve the conflict between<br/>
                     the two major realms of Classical physics: Newtonian mechanics </p>
