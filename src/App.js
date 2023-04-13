@@ -18,7 +18,7 @@ function App() {
     <Services/>
     <ThirdSection/>
     <Experts/>
-    {/* <Department/> */}
+    <Department/>
     <Medicine/>
     <Team/>
     <Joinus/>

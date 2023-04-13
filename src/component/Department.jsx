@@ -1,5 +1,9 @@
 import React from 'react'
 import './styles/department.scss'
+import { AiFillEye, AiFillStar } from 'react-icons/ai'
+import { BsCart, BsDownload } from 'react-icons/bs'
+import {FcLike} from 'react-icons/fc'
+import {MdArrowForwardIos} from 'react-icons/md'
 const Department = () => {
     const data = [
         {
@@ -40,29 +44,35 @@ const Department = () => {
                         the two major realms of Classical physics: Newtonian mechanics
                     </div>
                 </div>
-                <div className='row'>
-                    <div className='col-12 d-flex justify-content-between mb-5'>
+                <div className='row d-flex justify-content-between mb-5 mt-5'>
+                    
                         {
                             data.map((e) => (
-                                <div className='dep_card' key={e.id}>
-                                    <img src={e.image} alt={e.title} />
+                                <div className='col-12 col-lg-4 dep_card' key={e.id}>
+                                    <img src={e.image} alt={e.title} className='z-index-1'/>
+                                    <div className='sale z-index-2'>Sale</div>
+                                    <div className='icon_square_area d-flex'>
+                                        <a href=' #' className='icon_square'><FcLike/></a>
+                                        <a href=' #' className='icon_square'><BsCart/></a>
+                                        <a href=' #' className='icon_square'><AiFillEye/></a>
+                                    </div>
                                     <div className='p-4'>
-                                        <div>
+                                        <div className='d-flex justify-content-between'>
                                         <h6>{e.title1}</h6>
                                         <a href=' #' className='right_icon'>
-                                            {/* <img src="./images/icon emojione-star.png" alt="image" height={16} width={16}/> */}
+                                            <AiFillStar style={{color:"#F3CD03",marginRight:"0.25rem"}}/>
                                             4.9
                                         </a>
                                         </div>
                                         <h5 className='title'>{e.title}</h5>
                                         <div className='description'>{e.description}</div>
                                         <div className='d-flex justify-content-start'>
-                                            <img src="./images/Vector1.png" alt="img" className='small_image'/>
+                                            <BsDownload className='mt-4'/>
                                             <h5 className='description'>15 Sales</h5>
                                         </div>
                                         <div className='description'>$16.48 <span className="dollor">$6.48</span></div>
                                         <div className='button4_area'>
-                                            <a className='button4' href=' #'>Learn More {'>'}</a>
+                                            <a className='button4' href=' #'>Learn More <MdArrowForwardIos/></a>
                                         </div>
                                     </div>
                                     {/* <img src="./images/icon emojione-star.png" alt="image" height={16} width={16} style={{ objectFit: "contain" }}/> */}
@@ -70,7 +80,7 @@ const Department = () => {
                             ))
                         }
 
-                    </div>
+                    
                 </div>
             </div>
         </>

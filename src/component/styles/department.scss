@@ -13,7 +13,7 @@
     font-weight: 900;
 }
 .button4{
-    padding: 1.5em 3em;
+    padding: 1em 2em;
     border: 1px solid var(--bs-primary-color);
     border-radius:30px;
     outline: none;
@@ -41,7 +41,7 @@
 }
 
 .right_icon{
-    padding: 0 0 0 2em;
+    padding: 5px 1em 0 1em;
     border: none;
     border-radius:20px;
     outline: none;
@@ -49,9 +49,35 @@
     font-weight: 700;
     color: var(--bs-light-text-color);
     text-decoration: none;
-    width: 60px;
-    height: 26px;
+    width: 80px;
+    height: 30px;
 }
 .right_icon:hover{
     color: var(--bs-light-text-color);
+}
+.sale{
+    height: 24px;
+    width: 35px;
+    font-size: 14px;
+    background-color: var(--bs-danger-color);
+    color: var(--bs-light-text-color);
+    padding: 2px 4px 2px 2px;
+    position: absolute;
+    margin-top: -21.5rem;
+    margin-left: 2rem;
+}
+.icon_square{
+    margin: 0.5rem;
+    padding: 1em 1em;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--bs-light-text-color);
+    color: #000;
+   
+}
+.icon_square_area{
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 5rem;
 }
