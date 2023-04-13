@@ -1,8 +1,7 @@
 import React from 'react'
 import './styles/department.scss'
-import { AiFillEye, AiFillStar } from 'react-icons/ai'
+import { AiFillEye, AiFillStar,AiOutlineHeart } from 'react-icons/ai'
 import { BsCart, BsDownload } from 'react-icons/bs'
-import {FcLike} from 'react-icons/fc'
 import {MdArrowForwardIos} from 'react-icons/md'
 const Department = () => {
     const data = [
@@ -52,7 +51,7 @@ const Department = () => {
                                     <img src={e.image} alt={e.title} className='z-index-1'/>
                                     <div className='sale z-index-2'>Sale</div>
                                     <div className='icon_square_area d-flex'>
-                                        <a href=' #' className='icon_square'><FcLike/></a>
+                                        <a href=' #' className='icon_square'><AiOutlineHeart/></a>
                                         <a href=' #' className='icon_square'><BsCart/></a>
                                         <a href=' #' className='icon_square'><AiFillEye/></a>
                                     </div>
