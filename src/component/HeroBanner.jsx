@@ -2,7 +2,7 @@ import React from 'react'
 import './styles/heroBanner.scss'
 const HeroBanner = () => {
   return (
-    <div class="row z-index-1">
+    <div class="row z-index-1" style={{marginTop:"7rem"}}>
       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
         <h6 className='h6' style={{fontWeight:"700",fontSize:"1rem"}}>Join Us</h6>
         <h1 className='heading'>A Great Place to  Receive Care</h1>

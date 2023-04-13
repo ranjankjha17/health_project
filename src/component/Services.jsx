@@ -14,7 +14,7 @@ const Services = () => {
         },
         {
             'id': 2,
-            "image": "./images/vector.png",
+            "image": "./images/Vector.png",
             "title": "Emergency Case",
             "description": `The gradual accumulation of 
             information about atomic and 

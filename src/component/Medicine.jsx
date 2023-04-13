@@ -65,7 +65,7 @@ const Medicine = () => {
                                 <a href=" #" className='text-muted'><AiFillStar style={{ color: "#F3CD03" }} /></a>
                                 <a href=" #" className='text-muted'><AiOutlineStar style={{ color: "#F3CD03" }} /></a>
                                 <p className='mt-3 text-muted' style={{padding:"0 100px"}}>{e.desc}</p>
-                                <div className='d-flex justify-content-around'>
+                                <div className='d-flex justify-content-center'>
                                     <img src={e.image} alt={e.name}/>
                                     <div>
                                     <h5 className='mt-3 h6 fw-bold'>{e.name}</h5>

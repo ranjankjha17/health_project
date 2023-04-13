@@ -5,7 +5,7 @@ const Experts = () => {
         <div className='row'>
             <div className='col-6'>
                 <div className='line' style={{height:"5px",width:"5rem"}}></div>
-                <h2 className='heading' style={{fontSize:"3rem"}}>Meet Our Experts</h2>
+                <h2 className='heading2' style={{fontSize:"3rem"}}>Meet Our Experts</h2>
                 <div className='description w-75' style={{paddingRight:"4rem",marginBottom:"3rem"}}>Problems trying to resolve the conflict between
                     the two major realms of Classical physics:
                     Newtonian mechanics
