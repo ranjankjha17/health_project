@@ -34,7 +34,7 @@ const Department = () => {
         }
     ]
     return (
-        <>
+        <div>
             <div className='row'>
                 <div className='col-12'>
                     <h6 className='h6' style={{ fontWeight: "700", fontSize: "1rem" }}>Practice Advice</h6>                <h2 className='heading' style={{ fontSize: "3rem" }}>Our Department</h2>
@@ -74,7 +74,6 @@ const Department = () => {
                                             <a className='button4' href=' #'>Learn More <MdArrowForwardIos/></a>
                                         </div>
                                     </div>
-                                    {/* <img src="./images/icon emojione-star.png" alt="image" height={16} width={16} style={{ objectFit: "contain" }}/> */}
                                 </div>
                             ))
                         }
@@ -82,7 +81,7 @@ const Department = () => {
                     
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
